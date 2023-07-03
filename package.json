@@ -1,5 +1,5 @@
 {
-  "name": "@wangeditor/editor-for-react",
+  "name": "@42how/editor-for-react",
   "version": "1.0.6",
   "description": "wangEditor component for React",
   "author": "hahaaha <390519764@qq.com>",
@@ -28,7 +28,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wangeditor-team/wangEditor-for-react.git"
+    "url": "git+git@github.com:42how-dev/wangEditor-for-react.git"
   },
   "scripts": {
     "test": "jest",
@@ -45,8 +45,8 @@
     "url": "https://github.com/wangeditor-team/wangEditor-for-react/issues"
   },
   "peerDependencies": {
+    "@42how/editor": ">=5.1.0",
     "@wangeditor/core": ">=1.1.0",
-    "@wangeditor/editor": ">=5.1.0",
     "react": ">=17.0.2",
     "react-dom": ">=17.0.2"
   },
@@ -67,7 +67,6 @@
     "@types/react": "^17.0.13",
     "@types/react-dom": "^17.0.8",
     "@wangeditor/core": "^1.0.0",
-    "@wangeditor/editor": "^5.0.0",
     "autoprefixer": "^10.4.0",
     "babel-jest": "^27.3.1",
     "cross-env": "^7.0.3",
@@ -91,5 +90,7 @@
     "ts-jest": "^27.0.7",
     "typescript": "^4.4.4"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@42how/editor": "5.2.2"
+  }
 }
