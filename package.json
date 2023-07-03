@@ -1,6 +1,6 @@
 {
   "name": "@42how/editor-for-react",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "wangEditor component for React",
   "author": "hahaaha <390519764@qq.com>",
   "contributors": [],
@@ -91,9 +91,9 @@
     "rollup-plugin-typescript2": "^0.30.0",
     "rollup-plugin-visualizer": "^5.5.2",
     "ts-jest": "^27.0.7",
-    "typescript": "^4.4.4"
+    "typescript": "^4.4.4",
+    "@42how/editor": "5.2.2"
   },
   "dependencies": {
-    "@42how/editor": "5.2.2"
   }
 }
