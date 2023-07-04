@@ -92,7 +92,7 @@
     "rollup-plugin-visualizer": "^5.5.2",
     "ts-jest": "^27.0.7",
     "typescript": "^4.4.4",
-    "@42how/editor": "5.2.2"
+    "@42how/editor": "5.2.3"
   },
   "dependencies": {
   }

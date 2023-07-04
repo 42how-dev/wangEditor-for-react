@@ -9,20 +9,20 @@
   dependencies:
     is-url "^1.2.4"
 
-"@42how/editor@5.2.2":
-  version "5.2.2"
-  resolved "https://registry.yarnpkg.com/@42how/editor/-/editor-5.2.2.tgz#741f06b74759bade3ed78d53b90018c6947a9cec"
-  integrity sha512-TkdxNRFBI1CTzBor9Ef3diGAlXZpz99ULnmrKtKcY8e+7qyLjJtWfgvaOugOp03TY5I4zZVM7X9AMlr/vDYbSw==
+"@42how/editor@5.2.3":
+  version "5.2.3"
+  resolved "https://registry.yarnpkg.com/@42how/editor/-/editor-5.2.3.tgz#31bbdef0cc18efba612ed0f93ddbb92f626ca233"
+  integrity sha512-iyMZD045azTL8db0OOu8b8U71FelO8w7a9C3plyHgEYSUVhtJ1MS3raK21Zda7jfUFXfsZQkvOFcrVE1y1Vgiw==
   dependencies:
     "@42how/basic-modules" "^1.2.0"
     "@uppy/core" "^2.1.1"
     "@uppy/xhr-upload" "^2.0.3"
-    "@wangeditor/code-highlight" "^1.1.0"
-    "@wangeditor/core" "^1.2.0"
-    "@wangeditor/list-module" "^1.1.0"
-    "@wangeditor/table-module" "^1.2.0"
-    "@wangeditor/upload-image-module" "^1.1.0"
-    "@wangeditor/video-module" "^1.2.0"
+    "@wangeditor/code-highlight" "^1.0.3"
+    "@wangeditor/core" "^1.1.19"
+    "@wangeditor/list-module" "^1.0.5"
+    "@wangeditor/table-module" "^1.1.4"
+    "@wangeditor/upload-image-module" "^1.0.2"
+    "@wangeditor/video-module" "^1.1.4"
     dom7 "^3.0.0"
     is-hotkey "^0.2.0"
     lodash.camelcase "^4.3.0"
@@ -1861,14 +1861,14 @@
     "@uppy/utils" "^4.1.2"
     nanoid "^3.1.25"
 
-"@wangeditor/code-highlight@^1.1.0":
+"@wangeditor/code-highlight@^1.0.3":
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/@wangeditor/code-highlight/-/code-highlight-1.0.3.tgz#90256857714d5c0cf83ac475aea64db7bf29a7cd"
   integrity sha512-iazHwO14XpCuIWJNTQTikqUhGKyqj+dUNWJ9288Oym9M2xMVHvnsOmDU2sgUDWVy+pOLojReMPgXCsvvNlOOhw==
   dependencies:
     prismjs "^1.23.0"
 
-"@wangeditor/core@^1.0.0", "@wangeditor/core@^1.2.0":
+"@wangeditor/core@^1.0.0", "@wangeditor/core@^1.1.19":
   version "1.1.19"
   resolved "https://registry.yarnpkg.com/@wangeditor/core/-/core-1.1.19.tgz#f9155f7fd92d03cb1982405b3b82e54c31f1c2b0"
   integrity sha512-KevkB47+7GhVszyYF2pKGKtCSj/YzmClsD03C3zTt+9SR2XWT5T0e3yQqg8baZpcMvkjs1D8Dv4fk8ok/UaS2Q==
@@ -1880,22 +1880,22 @@
     scroll-into-view-if-needed "^2.2.28"
     slate-history "^0.66.0"
 
-"@wangeditor/list-module@^1.1.0":
+"@wangeditor/list-module@^1.0.5":
   version "1.0.5"
   resolved "https://registry.yarnpkg.com/@wangeditor/list-module/-/list-module-1.0.5.tgz#3fc0b167acddf885536b45fa0c127f9c6adaea33"
   integrity sha512-uDuYTP6DVhcYf7mF1pTlmNn5jOb4QtcVhYwSSAkyg09zqxI1qBqsfUnveeDeDqIuptSJhkh81cyxi+MF8sEPOQ==
 
-"@wangeditor/table-module@^1.2.0":
+"@wangeditor/table-module@^1.1.4":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@wangeditor/table-module/-/table-module-1.1.4.tgz#757d4a5868b2b658041cd323854a4d707c8347e9"
   integrity sha512-5saanU9xuEocxaemGdNi9t8MCDSucnykEC6jtuiT72kt+/Hhh4nERYx1J20OPsTCCdVr7hIyQenFD1iSRkIQ6w==
 
-"@wangeditor/upload-image-module@^1.1.0":
+"@wangeditor/upload-image-module@^1.0.2":
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/@wangeditor/upload-image-module/-/upload-image-module-1.0.2.tgz#89e9b9467e10cbc6b11dc5748e08dd23aaebee30"
   integrity sha512-z81lk/v71OwPDYeQDxj6cVr81aDP90aFuywb8nPD6eQeECtOymrqRODjpO6VGvCVxVck8nUxBHtbxKtjgcwyiA==
 
-"@wangeditor/video-module@^1.2.0":
+"@wangeditor/video-module@^1.1.4":
   version "1.1.4"
   resolved "https://registry.yarnpkg.com/@wangeditor/video-module/-/video-module-1.1.4.tgz#b9df1b3ab2cd53f678b19b4d927e200774a6f532"
   integrity sha512-ZdodDPqKQrgx3IwWu4ZiQmXI8EXZ3hm2/fM6E3t5dB8tCaIGWQZhmqd6P5knfkRAd3z2+YRSRbxOGfoRSp/rLg==
